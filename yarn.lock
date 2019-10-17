@@ -2173,7 +2173,7 @@ camelcase@^4.1.0:
   resolved "https://registry.npm.taobao.org/camelcase/download/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
   integrity sha1-1UVjW+HjPFQmScaRc+Xeas+uNN0=
 
-camelcase@^5.0.0:
+camelcase@^5.0.0, camelcase@^5.2.0:
   version "5.3.1"
   resolved "https://registry.npm.taobao.org/camelcase/download/camelcase-5.3.1.tgz#e3c9b31569e106811df242f715725a1f4c494320"
   integrity sha1-48mzFWnhBoEd8kL3FXJaH0xJQyA=
@@ -2439,6 +2439,11 @@ color@^3.0.0:
   dependencies:
     color-convert "^1.9.1"
     color-string "^1.5.2"
+
+colors@^1.3.0:
+  version "1.4.0"
+  resolved "https://registry.npm.taobao.org/colors/download/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
+  integrity sha1-xQSRR51MG9rtLJztMs98fcI2D3g=
 
 combined-stream@^1.0.6, combined-stream@~1.0.6:
   version "1.0.8"
@@ -4101,6 +4106,16 @@ fs-minipass@^1.2.5:
   integrity sha1-zP+FcIQef+QmVpPaiJNsVa7X98c=
   dependencies:
     minipass "^2.6.0"
+
+fs-plus@^3.0.2:
+  version "3.1.1"
+  resolved "https://registry.npm.taobao.org/fs-plus/download/fs-plus-3.1.1.tgz#02c085ba0a013084cff2f3e89b17c60c1d9b4ab5"
+  integrity sha1-AsCFugoBMITP8vPomxfGDB2bSrU=
+  dependencies:
+    async "^1.5.2"
+    mkdirp "^0.5.1"
+    rimraf "^2.5.2"
+    underscore-plus "1.x"
 
 fs-write-stream-atomic@^1.0.8:
   version "1.0.10"
@@ -8168,7 +8183,7 @@ rgba-regex@^1.0.0:
   resolved "https://registry.npm.taobao.org/rgba-regex/download/rgba-regex-1.0.0.tgz#43374e2e2ca0968b0ef1523460b7d730ff22eeb3"
   integrity sha1-QzdOLiyglosO8VI0YLfXMP8i7rM=
 
-rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.2, rimraf@^2.6.3:
+rimraf@^2.5.2, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.2, rimraf@^2.6.3:
   version "2.7.1"
   resolved "https://registry.npm.taobao.org/rimraf/download/rimraf-2.7.1.tgz#35797f13a7fdadc566142c29d4f07ccad483e3ec"
   integrity sha1-NXl/E6f9rcVmFCwp1PB8ytSD4+w=
@@ -8875,7 +8890,7 @@ svg-tags@^1.0.0:
   resolved "https://registry.npm.taobao.org/svg-tags/download/svg-tags-1.0.0.tgz#58f71cee3bd519b59d4b2a843b6c7de64ac04764"
   integrity sha1-WPcc7jvVGbWdSyqEO2x95krAR2Q=
 
-svgo@^1.0.0:
+svgo@^1.0.0, svgo@^1.0.5:
   version "1.3.0"
   resolved "https://registry.npm.taobao.org/svgo/download/svgo-1.3.0.tgz#bae51ba95ded9a33a36b7c46ce9c359ae9154313"
   integrity sha1-uuUbqV3tmjOja3xGzpw1mukVQxM=
@@ -9151,7 +9166,7 @@ tsconfig@^7.0.0:
     strip-bom "^3.0.0"
     strip-json-comments "^2.0.0"
 
-tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0, tslib@^1.9.3:
   version "1.10.0"
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
   integrity sha1-w8GflZc/sKYpc/sJ2Q2WHuQ+XIo=
@@ -9244,6 +9259,18 @@ uglify-js@^3.1.4:
   dependencies:
     commander "2.20.0"
     source-map "~0.6.1"
+
+underscore-plus@1.x:
+  version "1.7.0"
+  resolved "https://registry.npm.taobao.org/underscore-plus/download/underscore-plus-1.7.0.tgz#107f1900c520ac1fefe4edec6580a7ff08a99d0f"
+  integrity sha1-EH8ZAMUgrB/v5O3sZYCn/wipnQ8=
+  dependencies:
+    underscore "^1.9.1"
+
+underscore@^1.9.1:
+  version "1.9.1"
+  resolved "https://registry.npm.taobao.org/underscore/download/underscore-1.9.1.tgz#06dce34a0e68a7babc29b365b8e74b8925203961"
+  integrity sha1-BtzjSg5op7q8KbNluOdLiSUgOWE=
 
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
@@ -9461,6 +9488,11 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha1-UylVzB6yCKPZkLOp+acFdGV+CPI=
 
+vue-i18n@^8.15.0:
+  version "8.15.0"
+  resolved "https://registry.npm.taobao.org/vue-i18n/download/vue-i18n-8.15.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-i18n%2Fdownload%2Fvue-i18n-8.15.0.tgz#9b11ef8e7a124f67cdf788c8c90a81f3606240ed"
+  integrity sha1-mxHvjnoST2fN94jIyQqB82BiQO0=
+
 vue-jest@^3.0.4:
   version "3.0.5"
   resolved "https://registry.npm.taobao.org/vue-jest/download/vue-jest-3.0.5.tgz#d6f124b542dcbff207bf9296c19413f4c40b70c9"
@@ -9507,6 +9539,19 @@ vue-style-loader@^4.1.0:
   dependencies:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
+
+vue-svgicon@^3.2.6:
+  version "3.2.6"
+  resolved "https://registry.npm.taobao.org/vue-svgicon/download/vue-svgicon-3.2.6.tgz#b459b8025741bb6b4dc9c5632ee4ce3ec6350b89"
+  integrity sha1-tFm4AldBu2tNycVjLuTOPsY1C4k=
+  dependencies:
+    camelcase "^5.2.0"
+    colors "^1.3.0"
+    fs-plus "^3.0.2"
+    glob "^7.1.2"
+    svgo "^1.0.5"
+    tslib "^1.9.3"
+    yargs "^12.0.1"
 
 vue-template-compiler@^2.6.10:
   version "2.6.10"
@@ -9907,7 +9952,7 @@ yargs-parser@^9.0.2:
   dependencies:
     camelcase "^4.1.0"
 
-yargs@12.0.5:
+yargs@12.0.5, yargs@^12.0.1:
   version "12.0.5"
   resolved "https://registry.npm.taobao.org/yargs/download/yargs-12.0.5.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fyargs%2Fdownload%2Fyargs-12.0.5.tgz#05f5997b609647b64f66b81e3b4b10a368e7ad13"
   integrity sha1-BfWZe2CWR7ZPZrgeO0sQo2jnrRM=
