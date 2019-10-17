@@ -11,8 +11,9 @@
   "rules": {
     "indent": [true, "spaces", 2],
     "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
-    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
+    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore","disable-next-line"],
     "arrow-parens":false,
+    "member-ordering":false,
     "interface-name": false,
     "no-consecutive-blank-lines": false,
     "object-literal-sort-keys": false,

@@ -8,6 +8,9 @@ NProgress.configure({ showSpinner: false });
 router.beforeEach(async (to: Route, from: Route, next: any) => {
   // 测试执行过程
   // Start progress bar
+  // tslint:disable-next-line: no-console
+  console.log(process.env.VUE_APP_BASE_API);
+
   NProgress.start();
 
   next();
