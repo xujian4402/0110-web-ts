@@ -1,3 +1,3 @@
 export default {
-  baseUrl: process.env.BASE_URL
+  baseUrl: process.env.VUE_APP_BASE_API
 };

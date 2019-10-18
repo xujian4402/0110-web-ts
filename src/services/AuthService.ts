@@ -16,6 +16,7 @@ const initToken = () => {
 
   const token = loadToken();
   axios.defaults.baseURL = CONFIG.baseUrl;
+  axios.defaults.withCredentials = true; // 当跨域请求时发送cookie
   axios.defaults.headers.common.Authorization = token;
   axios.defaults.headers.common['Content-Type'] = 'application/json';
 

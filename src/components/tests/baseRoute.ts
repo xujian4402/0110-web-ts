@@ -5,13 +5,13 @@ import home from './Home.vue';
 const baseRoute: RouteConfig[] = [
   {
     path: '/',
-    name: 'about',
+    name: 'home',
     component: home
   },
   {
-    path: 'apps/new',
-    name: 'createApp',
-    component: home
+    path: '/about',
+    name: 'about',
+    component: about
   }
 ];
 
